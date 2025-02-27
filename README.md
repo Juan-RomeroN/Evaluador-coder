@@ -32,7 +32,7 @@ E. Generación de identidad visual: De acuerdo a al estudio de mercado se deber�
 
 F. Generaci+on de propuesta de logotipo basado en porpuesta de identidad visual y logotipos de competencia. 
 
-# Justificación de proyecto
+# Justificación de proyecto y metodología 
 
 El proyecto es técnicamente viable debido a las capacidades actuales de los modelos de IA, como GPT, que pueden procesar información compleja y proporcionar respuestas estructuradas basadas en datos, además de estar conectadas a información pública en linea. La implementación del proyecto seguirá un cronograma dividido en etapas de tres semanas cada una:
 - Primera etapa (Semana 1): Diseño inicial de los prompts y configuración del modelo para el análisis de mercado. En esta fase se recopilarán datos relevantes y se realizarán pruebas preliminares para evaluar la calidad de los resultados.
@@ -41,6 +41,18 @@ El proyecto es técnicamente viable debido a las capacidades actuales de los mod
 
 - Tercera etapa (Semana 3): Ajuste y optimización de los prompts y del modelo de generación de imágenes. Se realizarán pruebas finales con distintos casos de negocio para evaluar la efectividad y viabilidad de la solución propuesta.
 
+# Herramientas
+
+- Se define roles del asistente para asumir el comportamiento de un experto de negocios
+- Se usa  el prompt texto a texto para dar información de las necesidade de cada estudio necesario para validad la viabilidad del negocio
+- Se unsa el one shot a partir de un documento cargado en una URL
+- Se hace us o de temperatura en cada prompt del negocio para ajustar creatividad u consistencia en los resultados
+- Se hace uso del prompt texto a imagen para generar una propuesta de logotipo basado en los resultados del prompt texto a texto
+
+# Conclusiones
+Si bien la herramienta sirvió par aagilizar un estudio superficial de la factibilidad de un negocio, hace falta refinar más los prompts para que el resultado sea mas detallado, soportado y con información util. Adicionalmente en el resultado de la imagen aun no se logra tener propuestas realmente competitivas y consistentes.
+
+Sin embargo, creo que reninfando el codigo en un plazo de tiempo relativamente corto s epodría lograr tener una herramienta que permita validad de forma universal y util ideas de negocios. 
 
 # Prompt
 
